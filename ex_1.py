@@ -77,3 +77,4 @@ b = int(input('Введите второе число: '))
 c = int(input('Введите третье число: '))
 n = a + b + c
 print(n - max(a, b, c) - min(a, b, c))
+
