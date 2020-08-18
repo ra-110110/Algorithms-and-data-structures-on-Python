@@ -23,10 +23,10 @@ print(f"Минимальный элемент - {var_mass[index_of_min]}")
 print(f"Максимальный элемент - {var_mass[index_of_max]}")
 
 if index_of_max > index_of_min:
-    print(f"Ряд: {var_mass[index_of_min+1:index_of_max]}")
+    # print(f"Ряд: {var_mass[index_of_min+1:index_of_max]}")
     new_arr = copy.copy(var_mass[index_of_min+1:index_of_max])
 else:
-    print(f"Ряд: {var_mass[index_of_max+1:index_of_min]}")
+    # print(f"Ряд: {var_mass[index_of_max+1:index_of_min]}")
     new_arr = copy.copy(var_mass[index_of_max+1:index_of_min])
 
 s = 0
