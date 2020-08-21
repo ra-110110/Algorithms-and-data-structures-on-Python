@@ -15,7 +15,7 @@ try:
 
     print(f"Индексы четных чисел: {b}")
 
-except Exception:
+except ValueError:
     print("Введите число!")
 
 
