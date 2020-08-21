@@ -31,7 +31,7 @@ for j in range(n):
     s = []
     row_sum = 0
     r = j + 1
-    print("%r-я строка " % r)
+    print(f"{r}-я строка")
     for i in range(m):
         row = int(input("Введите число: "))
         row_sum += row
