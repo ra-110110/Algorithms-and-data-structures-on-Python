@@ -12,14 +12,11 @@
 
 """
 # проверить число https://calculatori.ru/perevod-chisel.html
-# from collections import Counter
-# from collections import deque
+from collections import OrderedDict
 
-# abs_test1 = deque("0123456789ABCDEF")
-# print(abs_test1) 
+list_of_dictionary = OrderedDict({0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9',
+                      10: 'A', 11: 'B', 12: 'C', 13: 'D', 14: 'E', 15: 'F'})
 
-list_of_dictionary = {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9',
-                      10: 'A', 11: 'B', 12: 'C', 13: 'D', 14: 'E', 15: 'F'}
 num_1 = list(str(input("Введите первое число шестнадцатеричное число:").upper()))
 num_2 = list(str(input("Введите второе число шестнадцатеричное число:").upper()))
 print(f'вы ввели - {num_1} и {num_2}')
@@ -63,7 +60,3 @@ result_s = maths(sum_num)
 print(f"сумма чисел в десятичной системе равна {sum_num} => 0x{result_s} или {list(str(result_s))}")
 result_m = maths(mult_num)
 print(f"сумма чисел в десятичной системе равна {mult_num} => 0x{result_m} или {list(str(result_m))}")
-
-
-# abs_test = Counter(result_m)
-# print(abs_test)
