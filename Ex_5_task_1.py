@@ -25,7 +25,7 @@ def calc():
         )
 
         profit_ent[company.name] = round(
-            ((company.profit_1 + company.profit_2 + company.profit_3 + company.profit_4) / 4), 2)
+            ((company.profit_1 + company.profit_2 + company.profit_3 + company.profit_4) / ent), 2)
         print(f'Средняя прибыль предприятия - {profit_ent} ден.ед.')
 
     mean = 0
